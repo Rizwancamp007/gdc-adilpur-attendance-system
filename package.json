@@ -1,0 +1,11 @@
+{
+  "name": "gdc-adilpur-attendance-system",
+  "version": "1.0.0",
+  "description": "Production Attendance Management System for Govt Degree College Adilpur",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  }
+}
