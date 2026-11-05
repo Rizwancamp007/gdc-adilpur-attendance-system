@@ -501,7 +501,7 @@ export const MessagingHub: React.FC = () => {
                 <div className="relative">
                   <input
                     type={showPassword ? 'text' : 'password'}
-                    placeholder="Enter device password from mobile (e.g. tvbxvkpbgnex_e)"
+                    placeholder="Enter device password from mobile "
                     value={smsPassword}
                     onChange={(e) => setSmsPassword(e.target.value)}
                     className="w-full p-2.5 pr-10 bg-slate-50 border border-slate-200 rounded-xl text-xs font-mono text-slate-800 focus:bg-white focus:outline-indigo-500"
